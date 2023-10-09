@@ -1,0 +1,94 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+    background-color: #383eb2;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 22px;
+}
+
+/* Style the navigation menu */
+nav {
+    background-color: #3d3c3c;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 15px;
+
+}
+
+nav li {
+    display: inline;
+    margin-left:30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size:17px; 
+}
+
+/* Style the main content */
+main {
+    padding: 30px;
+}
+
+.internship {
+    background-color: #f9f3f3f5;
+    border: 1px solid #f9f3f3f5;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.internship:hover{
+    background-color: rgba(191, 196, 149, 0.305);
+}
+
+.internship h2 {
+    color: #1c1c1c;
+}
+
+.viewdetails{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    background-color: #6c7bf0;
+    border: 1px solid #349fd9;
+    border-radius:4px;
+    margin-top: 5px;
+}
+
+.viewdetails:hover{
+    background-color: #383eb2;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
